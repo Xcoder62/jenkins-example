@@ -1,8 +1,7 @@
 pipeline {
   agent {
     docker {
-      image 'python:3.5.1'
-      args 'sh \'python --version\''
+      image 'python:3-slim'
     }
 
   }
